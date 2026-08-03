@@ -31,7 +31,8 @@ Registra un nuevo usuario o administrador.
 {
   "userId": "a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d",
   "email": "user@gmail.com",
-  "role": "USER"
+  "role": "USER",
+  "verification" : false
 }
 ```
 
@@ -51,7 +52,8 @@ Auténtica un usuario y retorna el JWT.
 {
   "token": "eyJhbGciOiJIUzI1NiJ9...",
   "role": "ADMIN",
-  "userId": "a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d"
+  "userId": "a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d",
+  "verification" : false | true
 }
 ```
 
